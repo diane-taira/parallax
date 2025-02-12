@@ -1,0 +1,56 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+/* Seção Parallax */
+.parallax {
+    height: 100vh; 
+    background-image: url('cool_dog.jpg'); 
+    background-attachment: fixed; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+.parallax__texto {
+    color: black;
+    font-size: 40px;
+    margin: 0;
+}
+
+/* Conteúdo */
+.content {
+    padding: 10%;
+    text-align: center;
+    background-color: #000000;
+}
+
+.content p {
+    color: #FFFFFF;
+    font-size: 20px;
+}
+
+.parallax1 {
+    height: 100vh;
+    background-image: url('cool_rat.jpg'); 
+    background-attachment: fixed; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+.parallax1__texto {
+        color: #FFFFFF;
+        font-size: 40px;
+        margin: 0;
+}
